@@ -43,25 +43,31 @@ section{
     border-radius:5px;
 }
 .bio-area{
+    border: 2px solid red;
     background-image: url(pix/biography-bg.png);
     background-repeat: no-repeat;
     padding-left: 300px;
+    height: 600px;
 }
+/* 3rd section-area */
+
 .work-area{
+    border: 2px solid red;
     background-image: url(pix/latest-work-bg.png);
     background-repeat: no-repeat;
-    padding: 200px;
+    padding: 150px;
+    height: 400px;
 }
 #work-aling{
     text-align: center;
 }
-.half-width{
-    width: 30%;
-    padding: 23px;
-
+.work-imgs{
+    height: 250px;
+    width: 300px;
 }
-/* .footer-area{
+.footer-area{
     background-image: url(pix/footer-bg.png);
     background-repeat: no-repeat;
     padding: 200px;
-} */
+    height: 300px;
+}
