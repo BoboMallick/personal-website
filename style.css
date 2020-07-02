@@ -9,7 +9,7 @@ h1{
 #name-highlight{
     font-size: 40px;
     color: fuchsia;
-    font-weight: 800;
+    font-weight: 900;
 }
 p{
     color: dimgray;
@@ -43,7 +43,6 @@ section{
     border-radius:5px;
 }
 .bio-area{
-    border: 2px solid red;
     background-image: url(pix/biography-bg.png);
     background-repeat: no-repeat;
     padding-left: 300px;
@@ -52,7 +51,6 @@ section{
 /* 3rd section-area */
 
 .work-area{
-    border: 2px solid red;
     background-image: url(pix/latest-work-bg.png);
     background-repeat: no-repeat;
     padding: 150px;
@@ -68,6 +66,22 @@ section{
 .footer-area{
     background-image: url(pix/footer-bg.png);
     background-repeat: no-repeat;
-    padding: 200px;
-    height: 300px;
+    text-align: center;
+}
+h5{
+    color: dimgray;
+}
+#h-color{
+    color: black
+}
+.contact-area{
+    margin: auto;
+    width: 40%;
+    padding: 5px;
+    background-image: linear-gradient(yellow,orange);
+    border-radius: 5px;
+}
+footer p{
+    text-align: center;
+    font-size: 12px;
 }
